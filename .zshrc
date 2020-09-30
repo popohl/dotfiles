@@ -18,7 +18,7 @@ PS1="%1~ 💻 > "
 
 #Cool aliases
 alias please=sudo
-alias brewpdate='brew update && brew upgrade && brew cask update && brew cask upgrade && brew cleanup'
+alias brewpdate='brew update && brew upgrade && brew upgrade --cask && brew cleanup'
 alias norminette="/Users/paulohl/Documents/_Perso/codage/scripts/norminette/norminette.rb"
 alias vim='nvim'
 alias gcw='gcc -Wall -Wextra'
